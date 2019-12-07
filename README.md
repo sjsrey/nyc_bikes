@@ -1,30 +1,8 @@
-NYC Bike Data
-=============
+nyc_bikes
+=========
 
+New York City bike-sharing data
+-------------------------------
 
-- observations: 14042 origin-desination flows
-- variables: 27
-- support: polygon
-
-
-Files
------
-nyc_bikes_ct.csv
-nyct2010.dbf
-nyct2010.prj
-nyct2010.shp
-nyct2010.shp.xml
-nyct2010.shx
-
-
-Variables
---------
-
-count	number of trips
-d_cap   destination tract cap
-d_tract destination tract
-distance distance
-end station latitutde
-end station longitude
-o_cap   origin tract cap
-o_tract origin tract
+* nyc_bikes_ct.csv: origin-destination flow data between stations (n=14042, k=35)
+* nyct2010.shp: geometry for bike stations (n=2166)
